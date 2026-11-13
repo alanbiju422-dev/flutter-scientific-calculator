@@ -1,0 +1,105 @@
+# ==============================================================================
+# Flutter & Dart .gitignore
+# Recommended rules for Flutter projects: https://flutter.dev/
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Miscellaneous & Temporary Files
+# ------------------------------------------------------------------------------
+*.class
+*.log
+*.pyc
+*.swp
+*.bak
+*.tmp
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+
+# ------------------------------------------------------------------------------
+# Dart & Pub Build Artifacts
+# ------------------------------------------------------------------------------
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+doc/api/
+coverage/
+
+# ------------------------------------------------------------------------------
+# Flutter Build Outputs & Generated Plugins
+# ------------------------------------------------------------------------------
+build/
+.build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Widget Preview Cache
+.widget_preview/
+
+# Symbolication & Obfuscation files
+app.*.symbols
+app.*.map.json
+
+# ------------------------------------------------------------------------------
+# Android Generated Build Files & Keystores
+# ------------------------------------------------------------------------------
+android/.gradle/
+android/local.properties
+android/captures/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/app/build/
+**/android/**/build/
+
+# Signing keys & secrets (never commit private keys)
+*.jks
+*.keystore
+*.key
+
+# ------------------------------------------------------------------------------
+# iOS Generated Build Files & Pods
+# ------------------------------------------------------------------------------
+ios/.generated/
+ios/Flutter/.last_build_id
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Pods/
+**/ios/.symlinks/
+
+# ------------------------------------------------------------------------------
+# IDE & Editor Temporary Files
+# ------------------------------------------------------------------------------
+# JetBrains (IntelliJ IDEA, Android Studio)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# ------------------------------------------------------------------------------
+# Preserved Core Project Files (Explicitly Kept)
+# ------------------------------------------------------------------------------
+!pubspec.yaml
+!pubspec.lock
+!lib/
+!test/
+!bin/
+!android/build.gradle.kts
+!android/settings.gradle.kts
+!android/app/build.gradle.kts
